@@ -1,0 +1,286 @@
+.mainpage-slider {
+  .slide-item {
+    height: 640px;
+    color: #fff;
+
+    .container {
+      height: 100%;
+    }
+
+    .slider-content {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .title {
+        font-family: "RobotoSlab", serif;
+        font-size: 48px;
+        line-height: 60px;
+        letter-spacing: 3.12px;
+        text-align: center;
+        text-transform: uppercase;
+      }
+
+      .description {
+        font-size: 18px;
+        line-height: 30px;
+        font-weight: 600;
+        letter-spacing: 0.45px;
+        max-width: 640px;
+        text-align: center;
+      }
+
+    }
+  }
+
+  .slide-1 {
+    background: url(images/cover.jpg) no-repeat center;
+    background-size: cover;
+  }
+}
+
+.services {
+  .green-bg {
+    height: 419px;
+    background-color: $green-brand-color;
+  }
+
+  .light-bg {
+    background-color: $light-bg-color;
+  }
+
+  .services-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    top: -190px;
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-bottom: -190px;
+
+    .service-item {
+      height: 449px;
+      width: 360px;
+      background-color: #fdfdfd;
+      margin-left: 15px;
+      margin-right: 15px;
+      margin-bottom: 30px;
+      padding-bottom: 60px;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+      box-shadow: 0px 15px 50px 0 rgba(80, 64, 55, 0.1);
+
+      img {
+        position: absolute;
+        bottom: 226px;
+      }
+
+      .title {
+        font-size: 24px;
+        line-height: 30px;
+        letter-spacing: 0.24px;
+        color: $brown-brand-color;
+        text-align: center;
+        font-weight: 700;
+        margin-bottom: 14px;
+        padding: 0 54px;
+      }
+
+      .description {
+        color: #b18857;
+        padding: 0 54px;
+        line-height: 24px;
+        text-align: center;
+      }
+    }
+  }
+}
+
+.about-company {
+  background-color: $light-bg-color;
+  padding-top: 90px;
+  padding-bottom: 30px;
+
+  .about-text {
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+}
+
+.advantages {
+  padding-top: 110px;
+  padding-bottom: 90px;
+  background-color: $light-bg-color;
+
+  .advantages-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    margin-left: -15px;
+    margin-right: -15px;
+
+    .advantage-item {
+      height: 350px;
+      width: 360px;
+      background-color: #fff;
+      margin-left: 15px;
+      margin-right: 15px;
+      margin-bottom: 30px;
+      padding-bottom: 53px;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+      box-shadow: 0 15px 50px 0 rgba(80, 64, 55, 0.1);
+
+      img {
+        position: absolute;
+        bottom: 190px;
+        padding-left: 20px;
+      }
+
+      .title {
+        font-size: 24px;
+        line-height: 30px;
+        letter-spacing: 0.24px;
+        color: $brown-brand-color;
+        text-align: center;
+        font-weight: 700;
+        margin-bottom: 14px;
+        padding: 0 54px;
+      }
+
+      .description {
+        color: #b18857;
+        padding: 0 54px;
+        line-height: 24px;
+        text-align: center;
+      }
+    }
+  }
+}
+
+section.news {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-color: $green-brand-color;
+
+  .news-item {
+    display: flex;
+    background-color: #fff;
+    margin-bottom: 30px;
+
+    .image-container {
+      width: 262px;
+      height: 276px;
+
+      img {
+        object-fit: cover;
+        object-position: center;
+        width: 262px;
+        height: 276px;
+      }
+    }
+
+    .text {
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+
+      .type {
+        margin-bottom: 44px;
+        color: $light-brown-font-color;
+
+        &.promo {
+          font-weight: 700;
+          color: $green-brand-color;
+        }
+      }
+
+      .title {
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: 0.2px;
+        font-weight: 700;
+        margin-bottom: auto;
+      }
+
+      .date {
+        color: $light-brown-font-color
+      }
+    }
+  }
+}
+
+section.supplier {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-color: rgba(59, 57, 49, 0.87);
+
+  .description {
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    color: $light-bg-color;
+    max-width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+section.contact-form {
+  background-color: $light-bg-color;
+  padding: 120px 0;
+
+  .contacts-form-row {
+    display: flex;
+
+    .block {
+      flex-basis: 50%;
+      max-width: 50%;
+      height: 503px;
+      padding: 80px 70px;
+
+      &.light-bg {
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+
+        .description {
+          margin-bottom: auto;
+        }
+      }
+
+      &.dark-bg {
+        background-color: $green-brand-color;
+        display: flex;
+        flex-direction: column;
+
+        .krona-btn {
+          margin-top: auto;
+        }
+      }
+
+      .title {
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: 0.2px;
+        font-weight: 700;
+      }
+
+    }
+  }
+}

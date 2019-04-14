@@ -1,0 +1,35 @@
+#footer {
+
+  .map {
+    height: 420px;
+  }
+
+  .top-footer-block {
+    background-color: $green-secondary-brand-color;
+    padding: 38px 0 35px;
+    color: $light-bg-color;
+
+    .footer-block {
+      display: flex;
+      align-items: center;
+      height: 100%;
+
+      img {
+        position: relative;
+        top: 3px
+      }
+    }
+  }
+
+  .bottom-footer-block {
+    padding: 57px 0 94px;
+    background-color: $brown-secondary-brand-color;
+    color: $light-brown-font-color;
+
+    .flex-row {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+}

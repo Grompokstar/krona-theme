@@ -1,0 +1,50 @@
+.krona-btn {
+  height: 70px;
+  font-family: "Monrope", Arial, sans-serif;
+  position: relative;
+  cursor: pointer;
+  color: $brown-secondary-brand-color;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  text-align: center;
+  background-color: $button-bg-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &.dark-bg {
+    background-color: $green-brand-color;
+    color: #fff;
+
+    img {
+      position: relative;
+      top: 3px
+    }
+  }
+
+  .text {
+    position: relative;
+    top: -1px
+  }
+
+  img {
+    position: relative;
+    top: 5px
+  }
+
+  &.full-width {
+    width: 100%
+  }
+
+  &.width-300 {
+    width: 300px
+  }
+
+  &.width-225 {
+    width: 225px
+  }
+}

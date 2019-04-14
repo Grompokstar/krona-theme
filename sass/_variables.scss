@@ -1,0 +1,49 @@
+$green-brand-color: #369c6d;
+$green-secondary-brand-color: #378467;
+$brown-brand-color: #504037;
+$brown-secondary-brand-color: #3b3931;
+$light-font-color: #f5f3dc;
+$light-bg-color: #f8f7ea;
+$button-bg-color: #fce6b3;
+$light-brown-font-color: #b18857;
+
+
+
+$my-spacer: 2px;
+$my-spacers: (
+  _2: ($my-spacer * 1),
+  _4: ($my-spacer * 2),
+  _6: ($my-spacer * 3),
+  _8: ($my-spacer * 4),
+  _10: ($my-spacer * 5),
+  _12: ($my-spacer * 6),
+  _14: ($my-spacer * 7),
+  _16: ($my-spacer * 8),
+  _18: ($my-spacer * 9),
+  _20: ($my-spacer * 10),
+  _22: ($my-spacer * 11),
+  _24: ($my-spacer * 12),
+  _26: ($my-spacer * 13),
+  _28: ($my-spacer * 14),
+  _30: ($my-spacer * 15),
+  _32: ($my-spacer * 16),
+  _34: ($my-spacer * 17),
+  _36: ($my-spacer * 18),
+  _38: ($my-spacer * 19),
+  _40: ($my-spacer * 20),
+  _42: ($my-spacer * 21),
+  _44: ($my-spacer * 22),
+  _46: ($my-spacer * 23),
+  _48: ($my-spacer * 24),
+  _50: ($my-spacer * 25),
+  _52: ($my-spacer * 26),
+  _54: ($my-spacer * 27),
+  _56: ($my-spacer * 28),
+  _58: ($my-spacer * 29),
+  _60: ($my-spacer * 30),
+  _62: ($my-spacer * 31),
+  _64: ($my-spacer * 32),
+  _66: ($my-spacer * 33),
+  _68: ($my-spacer * 34),
+  _120: ($my-spacer * 60),
+)
