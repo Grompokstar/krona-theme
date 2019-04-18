@@ -31,7 +31,7 @@ get_header();
 <section id="services" class="services">
   <div class="green-bg">
     <div class="container">
-      <div class="section-title dark-bg p2t_120 m2b_22">
+      <div class="section-title dark-bg p2t_120 m2b_18">
         <h2>Услуги</h2>
       </div>
       <div class="section-title-divider m2b_54"></div>
@@ -74,33 +74,35 @@ get_header();
 
 <section class="about-company">
   <div class="container">
-    <div class="section-title m2b_22">
+    <div class="section-title m2b_18">
       <h2>О компании</h2>
     </div>
     <div class="section-title-divider m2b_54"></div>
-    <div class="row m2b_66">
-      <div class="col-lg-6">
-        <div class="about-text p2r_60">
-          Компания «Крона» с 2008 года на&nbsp;рынке пиломатериалов в&nbsp;Татарстане в&nbsp;городе Набержные&nbsp;Челны.
-          Мы организуем, преимущественно, поставки хвойной древесины (ель, сосна, лиственница)
-          из&nbsp;северных регионов России.
-          За&nbsp;это&nbsp;время накопили достаточно опыта и&nbsp;ресурсов, чтобы&nbsp;работать как&nbsp;с&nbsp;мелкими розничными,
-          так&nbsp;и&nbsp;с&nbsp;крупными оптовыми продажами.
+    <div class="about-company-content">
+      <div class="row m2b_66">
+        <div class="col-lg-6">
+          <div class="about-text">
+            Компания «Крона» с 2008 года на&nbsp;рынке пиломатериалов в&nbsp;Татарстане в&nbsp;городе Набержные&nbsp;Челны.
+            Мы организуем, преимущественно, поставки хвойной древесины (ель, сосна, лиственница)
+            из&nbsp;северных регионов России.
+            За&nbsp;это&nbsp;время накопили достаточно опыта и&nbsp;ресурсов, чтобы&nbsp;работать как&nbsp;с&nbsp;мелкими розничными,
+            так&nbsp;и&nbsp;с&nbsp;крупными оптовыми продажами.
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <img src="<?php echo $theme_path; ?>/images/photo-2.jpg">
         </div>
       </div>
-      <div class="col-lg-6">
-        <img src="<?php echo $theme_path; ?>/images/photo-2.jpg">
-      </div>
-    </div>
 
-    <div class="row m2b-62">
-      <div class="col-lg-6">
-        <img src="<?php echo $theme_path; ?>/images/photo-1.jpg">
-      </div>
-      <div class="col-lg-6">
-        <div class="about-text p2l_32">
+      <div class="row m2b-62">
+        <div class="col-lg-6">
+          <img src="<?php echo $theme_path; ?>/images/photo-1.jpg">
+        </div>
+        <div class="col-lg-6">
+          <div class="about-text">
             Мы всегда стараемся делать упор на&nbsp;качество за&nbsp;доступные деньги.
             Здесь про&nbsp;топовые материалы и&nbsp;обработку. В&nbsp;общем про саму вагонку софт лайн.
+          </div>
         </div>
       </div>
     </div>
@@ -109,7 +111,7 @@ get_header();
 
 <section class="advantages">
   <div class="container">
-    <div class="section-title m2b_22">
+    <div class="section-title m2b_18">
       <h2>Преимущества</h2>
     </div>
     <div class="section-title-divider m2b_54"></div>
@@ -147,7 +149,7 @@ get_header();
 
 <section class="news">
   <div class="container">
-    <div class="section-title dark-bg m2b_22">
+    <div class="section-title dark-bg m2b_18">
       <h2>Новости и акции</h2>
     </div>
     <div class="section-title-divider m2b_54"></div>
@@ -195,7 +197,7 @@ get_header();
 
 <section class="supplier">
   <div class="container">
-    <div class="section-title dark-bg m2b_22">
+    <div class="section-title dark-bg m2b_18">
       <h2>Поставщикам</h2>
     </div>
     <div class="section-title-divider m2b_24"></div>

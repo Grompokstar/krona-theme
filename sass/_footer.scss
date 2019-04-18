@@ -11,8 +11,9 @@
 
     .footer-block {
       display: flex;
-      align-items: center;
+      align-items: flex-start;
       height: 100%;
+      padding: 15px 0;
 
       img {
         position: relative;
