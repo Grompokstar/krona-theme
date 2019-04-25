@@ -11,16 +11,15 @@ get_header();
     <div class="container">
       <div class="slider-content">
         <div class="title m2b_42">
-          <h1>Изделия из&nbsp;хвойной древесины из&nbsp;северных регионов России
-            в&nbsp;Набережных&nbsp;Челнах</h1>
+          <h1>Пиломатериалы и&nbsp;погонажные изделия из&nbsp;северных
+            регионов&nbsp;России</h1>
         </div>
         <div class="description m2b_60">
-          У&nbsp;нас вы можете купить пиломатериалы и&nbsp;погонажные&nbsp;изделия
-          (вагонка, евровагонка, доска, брус, фальшбрус, блок-хаус и&nbsp;др.)
-          оптом и&nbsp;в&nbsp;розницу в&nbsp;отличном соотношении цены и&nbsp;качества.
+          У нас вы можете купить вагонку, пол, имитацию бруса,
+          блок-хаус, строганную доску и др.
         </div>
-        <a href="#" class="krona-btn width-300">
-          <span class="text m2r_24">Открыть цены</span>
+        <a href="#" class="krona-btn width-270">
+          <span class="text m2r_20">Открыть цены</span>
           <div><img src="<?php echo $theme_path; ?>/images/ico-next.svg"></div>
         </a>
       </div>
@@ -31,42 +30,79 @@ get_header();
 <section id="services" class="services">
   <div class="green-bg">
     <div class="container">
-      <div class="section-title dark-bg p2t_120 m2b_18">
+      <div class="section-title dark-bg p2t_100 m2b_18">
         <h2>Услуги</h2>
       </div>
-      <div class="section-title-divider m2b_54"></div>
-    </div>
-  </div>
-  <div class="light-bg">
-    <div class="container">
+      <div class="section-title-divider m2b_28"></div>
+
       <div class="services-wrapper">
-        <div class="service-item">
-          <img src="<?php echo $theme_path; ?>/images/doski.png">
-          <div class="title">
-            Продажа пиломатериала
+        <div class="row">
+          <div class="col-xl-6">
+            <div class="service-item">
+              <div class="img">
+                <img src="<?php echo $theme_path; ?>/images/doski.png">
+              </div>
+              <div class="text-section">
+                <div class="title">
+                  Продажа пиломатериала
+                </div>
+                <div class="description">
+                  Вагонка, половая доска, имитация бруса, блок-хаус, погонаж и&nbsp;др.
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="description">
-            Вагонка, брус, половая доска, погонаж, блок-хаус
+          <div class="col-xl-6">
+            <div class="service-item">
+              <div class="img">
+                <img src="<?php echo $theme_path; ?>/images/gaz.png">
+              </div>
+
+              <div class="text-section">
+                <div class="title">
+                  Организация доставки
+                </div>
+                <div class="description">
+                  Автомобили для&nbsp;частных и&nbsp;оптовых заказов
+                </div>
+              </div>
+            </div>
           </div>
+          <div class="col-xl-6">
+            <div class="service-item">
+              <div class="img">
+                <img src="<?php echo $theme_path; ?>/images/rul.png">
+              </div>
+              <div class="text-section">
+                <div class="title">
+                  Рассчет материала
+                </div>
+                <div class="description">
+                  Оптимизация расходов по&nbsp;вашим размерам
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-6">
+            <div class="service-item">
+              <div class="img">
+                <img src="<?php echo $theme_path; ?>/images/brus.png">
+              </div>
+              <div class="text-section">
+                <div class="title">
+                  Индивидуальный заказ
+                </div>
+                <div class="description">
+                  Возможно изготовление материала по&nbsp;вашим размерам
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
-        <div class="service-item">
-          <img src="<?php echo $theme_path; ?>/images/brusok.png">
-          <div class="title">
-            Бесплатная распиловка
-          </div>
-          <div class="description">
-            Рассчет материала и&nbsp;распиловка по&nbsp;размерам
-          </div>
-        </div>
-        <div class="service-item">
-          <img src="<?php echo $theme_path; ?>/images/gaz.png">
-          <div class="title">
-            Организация доставки
-          </div>
-          <div class="description">
-            Автомобили для&nbsp;частных и&nbsp;оптовых заказов
-          </div>
-        </div>
+
+
+
       </div>
     </div>
   </div>
@@ -79,29 +115,38 @@ get_header();
     </div>
     <div class="section-title-divider m2b_54"></div>
     <div class="about-company-content">
-      <div class="row m2b_66">
-        <div class="col-lg-6">
+      <div class="row m2b_26">
+        <div class="col-xl-6">
           <div class="about-text">
-            Компания «Крона» с 2008 года на&nbsp;рынке пиломатериалов в&nbsp;Татарстане в&nbsp;городе Набержные&nbsp;Челны.
-            Мы организуем, преимущественно, поставки хвойной древесины (ель, сосна, лиственница)
-            из&nbsp;северных регионов России.
-            За&nbsp;это&nbsp;время накопили достаточно опыта и&nbsp;ресурсов, чтобы&nbsp;работать как&nbsp;с&nbsp;мелкими розничными,
-            так&nbsp;и&nbsp;с&nbsp;крупными оптовыми продажами.
+            <div class="m2b_4">
+              Компания "Крона" работате на&nbsp;рынке пиломатериалов с&nbsp;2008&nbsp;г. Мы сами контролируем процесс
+              производства от&nbsp;заготовки леса до&nbsp;изготовления продукции, блогадаря&nbsp;чему можем предложить
+              вам высокое качество материала по&nbsp;доступным ценам.
+            </div>
+            Для производства по-настоящему качественных пиломатериалов необходимо особенное сырье.
+            Крепкое, плотное, но&nbsp;удобное для&nbsp;обработки. Именно такими качествами обладает
+            древесина из&nbsp;северных регионов России.
           </div>
         </div>
-        <div class="col-lg-6">
-          <img src="<?php echo $theme_path; ?>/images/photo-2.jpg">
+        <div class="col-xl-6">
+          <div class="img-container">
+            <img src="<?php echo $theme_path; ?>/images/photo-2.jpg" width="554px" height="300px">
+          </div>
         </div>
       </div>
 
       <div class="row m2b-62">
-        <div class="col-lg-6">
-          <img src="<?php echo $theme_path; ?>/images/photo-1.jpg">
+        <div class="col-xl-6">
+          <div class="img-container">
+            <img src="<?php echo $theme_path; ?>/images/photo-1.jpg">
+          </div>
         </div>
-        <div class="col-lg-6">
+        <div class="col-xl-6">
           <div class="about-text">
-            Мы всегда стараемся делать упор на&nbsp;качество за&nbsp;доступные деньги.
-            Здесь про&nbsp;топовые материалы и&nbsp;обработку. В&nbsp;общем про саму вагонку софт лайн.
+            Эти же особенности обеспечивают строительному материалу изсеверного леса отличные
+            эксплуатационные характеристики – жилье с&nbsp;отделкой из&nbsp;него положительно влияет
+            на&nbsp;здоровье человека. Поэтому выбирая материал для&nbsp;строительства и&nbsp;отделки своего дома,
+            мы рекомендуем обратить внимание на&nbsp;этот вид&nbsp;древесины.
           </div>
         </div>
       </div>
@@ -114,34 +159,34 @@ get_header();
     <div class="section-title m2b_18">
       <h2>Преимущества</h2>
     </div>
-    <div class="section-title-divider m2b_54"></div>
+    <div class="section-title-divider m2b_28"></div>
   </div>
   <div class="advantages-wrapper">
     <div class="advantage-item">
       <img src="<?php echo $theme_path; ?>/images/ico-1.svg">
       <div class="title">
-        Продажа пиломатериала
+        Северный<br>лес
       </div>
       <div class="description">
-        Вагонка, брус, половая доска, погонаж, блок-хаус
+        Древесина из&nbsp;северных регионов
       </div>
     </div>
     <div class="advantage-item">
       <img src="<?php echo $theme_path; ?>/images/ico-2.svg">
       <div class="title">
-        Бесплатная распиловка
+        Удобное<br>расположение
       </div>
       <div class="description">
-        Рассчет материала и&nbsp;распиловка по&nbsp;размерам
+        Общественный транспорт в&nbsp;шаговой&nbsp;доступности
       </div>
     </div>
     <div class="advantage-item">
       <img src="<?php echo $theme_path; ?>/images/ico-3.svg">
       <div class="title">
-        Организация доставки
+        Оплата<br>материала
       </div>
       <div class="description">
-        Автомобили для&nbsp;частных и&nbsp;оптовых заказов
+        Наличный и&nbsp;безналичный рассчет
       </div>
     </div>
   </div>
@@ -152,7 +197,7 @@ get_header();
     <div class="section-title dark-bg m2b_18">
       <h2>Новости и акции</h2>
     </div>
-    <div class="section-title-divider m2b_54"></div>
+    <div class="section-title-divider m2b_28"></div>
 
     <div class="row m2b_24">
       <div class="col-lg-6">
@@ -186,7 +231,7 @@ get_header();
     </div>
 
     <div class="flex-center">
-      <a href="#" class="krona-btn width-300">
+      <a href="#" class="krona-btn width-270">
         <span class="text m2r_24">Читать больше</span>
         <div><img src="<?php echo $theme_path; ?>/images/ico-next.svg"></div>
       </a>
@@ -197,7 +242,7 @@ get_header();
 
 <section class="supplier">
   <div class="container">
-    <div class="section-title dark-bg m2b_18">
+    <div class="section-title dark-bg m2b_22">
       <h2>Поставщикам</h2>
     </div>
     <div class="section-title-divider m2b_24"></div>
@@ -218,8 +263,8 @@ get_header();
           Позвоните нам или&nbsp;заполните форму&nbsp;обратной&nbsp;связи.
         </div>
 
-        <a href="#" class="krona-btn dark-bg width-225 mt-auto">
-          <div><img src="<?php echo $theme_path; ?>/images/phone.svg"></div>
+        <a href="#" class="krona-btn white-bg width-225 mt-auto">
+          <div class="m2r_12"><img src="<?php echo $theme_path; ?>/images/phone.svg"></div>
           <span class="text">Позвонить</span>
         </a>
 
@@ -231,7 +276,7 @@ get_header();
 
         <a href="#" class="krona-btn full-width">
           <span class="text m2r_24">Отправить</span>
-          <div><img src="<?php echo $theme_path; ?>/images/ico-next.svg"></div>
+          <div><img src="<?php echo $theme_path; ?>/images/next.svg"></div>
         </a>
       </div>
     </div>

@@ -22,7 +22,17 @@
 
     img {
       position: relative;
-      top: 3px
+    }
+  }
+
+  &.white-bg {
+    background-color: #fff;
+    color: $green-brand-color;
+    border: 3px solid $green-brand-color;
+
+    img {
+      position: relative;
+      top: -2px
     }
   }
 
@@ -33,7 +43,7 @@
 
   img {
     position: relative;
-    top: 5px
+    top: 1px;
   }
 
   &.full-width {
@@ -42,6 +52,10 @@
 
   &.width-300 {
     width: 300px
+  }
+
+  &.width-270 {
+    width: 270px
   }
 
   &.width-225 {

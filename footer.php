@@ -12,11 +12,11 @@ $theme_path = get_template_directory_uri();
       <div class="container">
         <div class="row">
           <div class="col-lg-3">
-            <img class="logo" height="73" src="<?php echo $theme_path; ?>/images/logo.png" alt="logo" />
+            <img class="logo" height="73" src="<?php echo $theme_path; ?>/images/logo2.svg" alt="logo" />
           </div>
           <div class="col-lg-3">
             <div class="footer-block">
-              <img class="m2r_6" src="<?php echo $theme_path; ?>/images/phone.svg">
+              <img class="m2r_16" src="<?php echo $theme_path; ?>/images/phone-yellow.svg">
               <div class="bold font-md">+7 927 464 67 77</div>
             </div>
           </div>
