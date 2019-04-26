@@ -1,14 +1,17 @@
 #header {
+  position: relative;
+  z-index: 5;
+
   .pre-header {
     height: 50px;
     background-color: $green-brand-color;
   }
 
   .main-header {
-    height: 120px;
+    //height: 120px;
     background-color: $light-bg-color;
     display: flex;
-    overflow: hidden;
+    box-shadow: 0 2px 5px 0 rgba(59, 57, 49, 0.2);
 
     >.container {
       height: 120px;
@@ -19,7 +22,6 @@
       align-items: center;
       justify-content: space-between;
       flex-wrap: wrap;
-      overflow: hidden;
     }
 
     .logo {
