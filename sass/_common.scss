@@ -40,7 +40,12 @@ html, body {
 .social-btn {
   width: 60px;
   height: 60px;
-  background-color: $green-brand-color;
-  padding: 17px;
+  padding: 14px;
   cursor: pointer;
+  border: 3px solid $green-brand-color;
+  transition: background-color 0.2s ease;
+
+  &:hover {
+    background-color: $green-brand-color;
+  }
 }
