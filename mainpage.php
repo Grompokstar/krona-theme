@@ -232,7 +232,7 @@ get_header();
 
     <div class="flex-center">
       <a href="#" class="krona-btn width-270">
-        <span class="text m2r_24">Читать больше</span>
+        <span class="text m2r_20">Читать больше</span>
         <div><img src="<?php echo $theme_path; ?>/images/ico-next.svg"></div>
       </a>
     </div>
@@ -275,7 +275,7 @@ get_header();
         <input type="text" class="form-control m2b_26" placeholder="Текст сообщения">
 
         <a href="#" class="krona-btn full-width">
-          <span class="text m2r_24">Отправить</span>
+          <span class="text m2r_20">Отправить</span>
           <div><img src="<?php echo $theme_path; ?>/images/next.svg"></div>
         </a>
       </div>
