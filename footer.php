@@ -22,7 +22,7 @@ $theme_path = get_template_directory_uri();
           </div>
           <div class="col-lg-3">
             <div class="footer-block">
-              <img class="m2r_10" src="<?php echo $theme_path; ?>/images/point.svg">
+              <img class="m2r_18" src="<?php echo $theme_path; ?>/images/point.svg">
               <div class="font-md">
                 г. Набережные Челны,<br>
                 Сармановский тракт, 44в
@@ -31,7 +31,7 @@ $theme_path = get_template_directory_uri();
           </div>
           <div class="col-lg-3">
             <div class="footer-block justify-content-end">
-              <img class="m2r_10" src="<?php echo $theme_path; ?>/images/clock.svg">
+              <img class="m2r_18" src="<?php echo $theme_path; ?>/images/clock.svg">
               <div class="font-md">
                 Пн-Пт: 8:00 - 17:00<br>
                 Сб-Вс: 8:00 - 15:00
