@@ -18,7 +18,7 @@ get_header();
           У нас вы можете купить вагонку, пол, имитацию бруса,
           блок-хаус, строганную доску и др.
         </div>
-        <a href="#" class="krona-btn width-270">
+        <a href="/price" class="krona-btn width-270">
           <span class="text m2r_20">Открыть цены</span>
           <div><img src="<?php echo $theme_path; ?>/images/ico-next.svg"></div>
         </a>
@@ -108,7 +108,7 @@ get_header();
   </div>
 </section>
 
-<section class="about-company">
+<section id="about-company" class="about-company">
   <div class="container">
     <div class="section-title m2b_18">
       <h2>О компании</h2>
@@ -192,7 +192,7 @@ get_header();
   </div>
 </section>
 
-<section class="news">
+<section id="news" class="news">
   <div class="container">
     <div class="section-title dark-bg m2b_18">
       <h2>Новости и акции</h2>

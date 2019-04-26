@@ -20,9 +20,9 @@ $theme_path = get_template_directory_uri();
           <div class="header-left-part">
             <div class="main-menu">
               <div class="menu-item"><a href="#services">Услуги</a></div>
-              <div class="menu-item"><a href="#">О&nbsp;нас</a></div>
-              <div class="menu-item"><a href="#">Акции</a></div>
-              <div class="menu-item"><a href="#">Контакты</a></div>
+              <div class="menu-item"><a href="#about-company">О&nbsp;нас</a></div>
+              <div class="menu-item"><a href="#news">Акции</a></div>
+              <div class="menu-item"><a href="#footer">Контакты</a></div>
             </div>
           </div>
           <a href="/">
