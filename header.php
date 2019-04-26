@@ -30,7 +30,7 @@ $theme_path = get_template_directory_uri();
           </a>
           <div class="header-right-part">
             <div class="main-menu">
-              <div class="menu-item"><a href="/?page_id=26">Цены</a></div>
+              <div class="menu-item"><a href="/price">Цены</a></div>
             </div>
             <div class="header-contacts">
               <div class="phone">
