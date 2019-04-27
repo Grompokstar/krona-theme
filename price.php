@@ -12,12 +12,12 @@ get_header();
       <div class="menu-item active" data-id="1">Евровагонка</div>
       <div class="menu-item active" data-id="2">Пол шпунтованный</div>
       <div class="menu-item active" data-id="3">Имитация бруса</div>
-      <div class="menu-item" data-id="4">Блок-хаус</div>
-      <div class="menu-item" data-id="6">Стеновая панель</div>
-      <div class="menu-item" data-id="7">Доска строганная</div>
-      <div class="menu-item" data-id="5">Погонаж</div>
-      <div class="menu-item" data-id="8">Брусок</div>
-      <div class="menu-item" data-id="9">Двери из массива</div>
+      <div class="menu-item active" data-id="4">Блок-хаус</div>
+      <div class="menu-item active" data-id="6">Стеновая панель</div>
+      <div class="menu-item active" data-id="7">Доска строганная</div>
+      <div class="menu-item active" data-id="5">Погонаж</div>
+      <div class="menu-item active" data-id="8">Брусок</div>
+      <div class="menu-item active" data-id="9">Двери из массива</div>
     </div>
     <div data-id="1" class="price-table show">
       <div class="table-title">
