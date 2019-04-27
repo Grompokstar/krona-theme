@@ -1,6 +1,8 @@
 #header {
   position: relative;
   z-index: 5;
+  height: 170px;
+  box-shadow: 0 2px 5px 0 rgba(59, 57, 49, 0.2);
 
   .pre-header {
     height: 50px;
@@ -8,10 +10,40 @@
   }
 
   .main-header {
-    //height: 120px;
+    position: relative;
     background-color: $light-bg-color;
     display: flex;
-    box-shadow: 0 2px 5px 0 rgba(59, 57, 49, 0.2);
+    transition: all 0.3s linear;
+    height: 0;
+
+    &.pinned {
+      z-index: 1000;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      height: 70px;
+
+      background-color: #fff;
+
+      >.container {
+        height: 70px;
+      }
+
+      .logo {
+        width: 117px
+      }
+
+      .email {
+        display: none;
+      }
+
+      .header-contacts {
+        height: 70px;
+        padding-bottom: 0;
+        padding-top: 5px;
+        justify-content: center;
+      }
+    }
 
     >.container {
       height: 120px;
@@ -86,6 +118,11 @@
           font-weight: 700;
           font-size: 24px;
           letter-spacing: -0.48px;
+          transition: color 0.2s linear;
+
+          &:hover {
+            color: $green-brand-color;
+          }
         }
       }
 

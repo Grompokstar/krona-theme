@@ -12,16 +12,16 @@ $theme_path = get_template_directory_uri();
 
 <body>
 <div id="page" class="site">
-  <header id="header">
+  <header id="header" class="pinned">
     <div class="pre-header"></div>
     <div class="main-header">
       <div class="container">
         <div class="header-container">
           <div class="header-left-part">
             <div class="main-menu">
-              <div class="menu-item"><a href="#services">Услуги</a></div>
-              <div class="menu-item"><a href="#about-company">О&nbsp;нас</a></div>
-              <div class="menu-item"><a href="#news">Акции</a></div>
+              <div class="menu-item"><a href="/#services">Услуги</a></div>
+              <div class="menu-item"><a href="/#about-company">О&nbsp;нас</a></div>
+              <div class="menu-item"><a href="/#news">Акции</a></div>
               <div class="menu-item"><a href="#footer">Контакты</a></div>
             </div>
           </div>
