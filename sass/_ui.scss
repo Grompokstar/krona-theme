@@ -9,12 +9,19 @@
   letter-spacing: 0.5px;
   font-weight: 700;
   text-decoration: none;
-  transition: all 0.3s ease;
   text-align: center;
   background-color: $button-bg-color;
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: all 0.2s linear;
+
+  &:hover {
+    background-color: $light-bg-color;
+    color: $green-brand-color;
+    box-shadow: 0 10px 25px 0 rgba(177, 136, 87, 0.2);
+  }
+
 
   &.dark-bg {
     background-color: $green-brand-color;
@@ -29,10 +36,16 @@
     background-color: #fff;
     color: $green-brand-color;
     border: 3px solid $green-brand-color;
+    transition: all 0.1s linear;
 
-    img {
-      position: relative;
-      top: -2px
+    &:hover {
+      background-color: $green-brand-color;
+      color: #fff;
+      box-shadow: 0 10px 25px 0 rgba(177, 136, 87, 0.2);
+
+      svg path {
+        fill: #fff;
+      }
     }
   }
 

@@ -53,12 +53,6 @@
   }
 
   .services-wrapper {
-    /*display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    position: relative;
-    margin-left: -15px;
-    margin-right: -15px;*/
     margin-bottom: -155px;
 
     .service-item {
@@ -109,9 +103,14 @@
   }
 }
 
+.services-light-bg-section {
+  background-color: $light-bg-color;
+  height: 155px;
+}
+
 .about-company {
   background-color: $light-bg-color;
-  padding-top: 225px;
+  padding-top: 70px;
   padding-bottom: 30px;
 
   .about-company-content {
