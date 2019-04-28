@@ -22,4 +22,22 @@ jQuery(function($){
       $('.main-header').removeClass('pinned');
     }
   });
+
+
+  $(".mobile-menu-btn").click(function() {
+    var $mobileMenu = $('#main-mobile-menu');
+
+    if ($mobileMenu.hasClass('show')) {
+      $mobileMenu.removeClass('show')
+    } else {
+      $mobileMenu.addClass('show')
+    }
+  })
+
+
+  $('#main-mobile-menu a').click(function() {
+    var $mobileMenu = $('#main-mobile-menu');
+
+    $mobileMenu.removeClass('show')
+  })
 });

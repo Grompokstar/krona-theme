@@ -199,6 +199,33 @@
     display: none;
   }
 
+  #main-mobile-menu {
+    position: absolute;
+    top: 70px;
+    background-color: #fff;
+    z-index: 1000;
+    padding: 5px 0 15px;
+    display: none;
+    transition: all 0.3s ease;
+
+    .menu-item {
+      padding: 13px 28px;
+      a {
+        color:$brown-secondary-brand-color;
+        text-decoration: none;
+        font-weight: 600;
+
+        &:hover {
+          color: $green-secondary-brand-color;
+        }
+      }
+    }
+
+    &.show {
+      display: block;
+    }
+  }
+
   @media (max-width: 1199.98px) {
     height: 150px;
 
@@ -230,7 +257,11 @@
   }
 
   @media (max-width: 991.98px) {
-    height: 120px;
+    height: 100px;
+
+    .pre-header {
+      height: 40px;
+    }
 
     .main-header {
       height: 70px;
@@ -372,6 +403,12 @@
   }
 
   @media (max-width: 575.98px) {
+    height: 90px;
+
+    .pre-header {
+      height: 30px;
+    }
+
     .main-header {
       .header-contacts {
       }
