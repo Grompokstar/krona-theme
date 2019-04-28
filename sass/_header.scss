@@ -279,6 +279,11 @@
 
         .call-btn {
           display: flex;
+
+          img {
+            margin-right: 10px;
+            top: -2px;
+          }
         }
       }
 
@@ -335,6 +340,16 @@
       .email-btn {
         width: auto!important;
       }
+
+      .header-contacts {
+        .call-btn {
+          img {
+            margin-right: 0;
+            top: 0;
+          }
+        }
+      }
+
     }
 
     &.pinned {
@@ -352,6 +367,13 @@
           padding-left: 25px;
           width: 35%;
         }
+      }
+    }
+  }
+
+  @media (max-width: 575.98px) {
+    .main-header {
+      .header-contacts {
       }
     }
   }
