@@ -6,7 +6,7 @@
 
   .pre-header {
     height: 50px;
-    background-color: $green-brand-color;
+    background-color: $green-secondary-brand-color;
   }
 
   .main-header {
@@ -14,7 +14,7 @@
     background-color: $light-bg-color;
     display: flex;
     align-items: center;
-    transition: all 0.3s linear;
+    transition: height 0.3s linear;
     height: 120px;
 
     &.pinned {
@@ -257,7 +257,7 @@
   }
 
   @media (max-width: 991.98px) {
-    height: 100px;
+    height: 110px;
 
     .pre-header {
       height: 40px;
@@ -405,7 +405,7 @@
   }
 
   @media (max-width: 575.98px) {
-    height: 90px;
+    height: 100px;
 
     .pre-header {
       height: 30px;

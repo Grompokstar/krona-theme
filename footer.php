@@ -11,7 +11,7 @@ $theme_path = get_template_directory_uri();
     <div class="top-footer-block">
       <div class="container">
         <div class="footer-row">
-          <div class="footer-block">
+          <div class="footer-block logo-container">
             <img class="logo" height="61" src="<?php echo $theme_path; ?>/images/logo2.svg" alt="logo" />
           </div>
           <div class="footer-block">

@@ -15,10 +15,10 @@ jQuery(function($){
 
 
   $(window).scroll(function(){
-    if($(this).scrollTop() > 170){
+    if($(this).scrollTop() > 100){
       $('.main-header').addClass('pinned');
     }
-    else if ($(this).scrollTop() < 170){
+    else if ($(this).scrollTop() < 100){
       $('.main-header').removeClass('pinned');
     }
   });

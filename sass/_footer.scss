@@ -60,11 +60,16 @@
 
   @media (max-width: 1199.98px) {
     .footer-row {
-      justify-content: center;
+      justify-content: flex-start;
 
       .footer-block {
         margin: 0 15px;
+        flex-basis: 300px;
       }
+    }
+
+    .logo-container {
+      width: 220px
     }
   }
 
@@ -78,13 +83,13 @@
   }
 
   @media (max-width: 575.98px) {
+    .footer-row {
+      justify-content: flex-start;
+    }
+
     .socials {
       flex-wrap: wrap;
       justify-content: center;
-
-      br {
-        display: none;
-      }
 
       .text {
         text-align: center;
