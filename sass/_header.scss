@@ -242,7 +242,7 @@
 
       .header-contacts {
         height: 100px;
-        padding-bottom: 10px;
+        padding-bottom: 16px;
       }
 
       .header-left-part {
@@ -267,7 +267,9 @@
       height: 70px;
 
       >.container {
+        max-width: 100%;
         height: 70px;
+        padding: 0;
       }
 
       .logo {
@@ -411,6 +413,9 @@
 
     .main-header {
       .header-contacts {
+        .email-btn, .call-btn {
+          padding: 10px 15px;
+        }
       }
 
       &.pinned {
