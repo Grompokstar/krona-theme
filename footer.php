@@ -10,34 +10,30 @@ $theme_path = get_template_directory_uri();
     </div>
     <div class="top-footer-block">
       <div class="container">
-        <div class="row">
-          <div class="col-sm-6 col-lg-3">
-            <div class="footer-block">
-              <img class="logo" height="73" src="<?php echo $theme_path; ?>/images/logo2.svg" alt="logo" />
+        <div class="footer-row">
+          <div class="footer-block">
+            <img class="logo" height="61" src="<?php echo $theme_path; ?>/images/logo2.svg" alt="logo" />
+          </div>
+          <div class="footer-block">
+            <img class="m2r_16" src="<?php echo $theme_path; ?>/images/phone-yellow.svg">
+            <div class="bold font-md">+7 927 464 67 77</div>
+          </div>
+          <div class="footer-block">
+            <img class="m2r_16" height="19px" src="<?php echo $theme_path; ?>/images/email-box-yellow.svg">
+            <div class="bold font-md">krona.wood@ya.ru</div>
+          </div>
+          <div class="footer-block">
+            <img class="m2r_18" src="<?php echo $theme_path; ?>/images/point.svg">
+            <div class="font-md">
+              г. Набережные Челны,<br>
+              Сармановский тракт, 44в
             </div>
           </div>
-          <div class="col-sm-6 col-lg-3">
-            <div class="footer-block">
-              <img class="m2r_16" src="<?php echo $theme_path; ?>/images/phone-yellow.svg">
-              <div class="bold font-md">+7 927 464 67 77</div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-3">
-            <div class="footer-block">
-              <img class="m2r_18" src="<?php echo $theme_path; ?>/images/point.svg">
-              <div class="font-md">
-                г. Набережные Челны,<br>
-                Сармановский тракт, 44в
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-3">
-            <div class="footer-block justify-content-end">
-              <img class="m2r_18" src="<?php echo $theme_path; ?>/images/clock.svg">
-              <div class="font-md">
-                Пн-Пт: 8:00 - 17:00<br>
-                Сб-Вс: 8:00 - 15:00
-              </div>
+          <div class="footer-block">
+            <img class="m2r_18" src="<?php echo $theme_path; ?>/images/clock.svg">
+            <div class="font-md">
+              Пн-Пт: 8:00 - 17:00<br>
+              Сб-Вс: 8:00 - 15:00
             </div>
           </div>
         </div>
@@ -48,18 +44,20 @@ $theme_path = get_template_directory_uri();
     <div class="bottom-footer-block">
       <div class="container">
         <div class="flex-row">
-          <div class="font-md mr-auto">
+          <div class="font-md">
             © Компания «Крона» 2008-<?php echo date('Y') ?>
           </div>
-          <div class="font-md m2r_52">
-            Также, вы можете написать нам<br>
-            в социальных сетях:
-          </div>
-          <div class="social-btn m2r_24">
-            <img class="m2r_10" src="<?php echo $theme_path; ?>/images/insta.svg">
-          </div>
-          <div class="social-btn">
-            <img class="m2r_10" src="<?php echo $theme_path; ?>/images/vk.svg">
+          <div class="socials">
+            <div class="text font-md">
+              Также, вы можете написать нам<br>
+              в социальных сетях:
+            </div>
+            <div class="social-btn">
+              <img class="m2r_10" src="<?php echo $theme_path; ?>/images/insta.svg">
+            </div>
+            <div class="social-btn">
+              <img class="m2r_10" src="<?php echo $theme_path; ?>/images/vk.svg">
+            </div>
           </div>
         </div>
       </div>
