@@ -375,6 +375,24 @@
     .main-header {
       .header-contacts {
       }
+
+      &.pinned {
+        .main-header {
+          .logo {
+            width: 95px;
+          }
+
+          .header-left-part {
+            padding-right: 5px;
+            width: 30%;
+          }
+
+          .header-right-part {
+            padding-left: 20px;
+            width: 30%;
+          }
+        }
+      }
     }
   }
 }

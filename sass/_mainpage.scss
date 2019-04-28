@@ -166,14 +166,15 @@
   padding-top: 70px;
   padding-bottom: 70px;
   background-color: $light-bg-color;
+  //display: none;
 
   .advantages-wrapper {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     position: relative;
-    margin-left: -15px;
-    margin-right: -15px;
+    //margin-left: -15px;
+    //margin-right: -15px;
 
     .advantage-item {
       height: 350px;

@@ -6,6 +6,7 @@ $theme_path = get_template_directory_uri();
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="shortcut icon" href="<?php echo $theme_path; ?>/images/favicon.png" type="image/png">
 	<link rel="profile" href="https://gmpg.org/xfn/11" />
 	<?php wp_head(); ?>
 </head>
