@@ -13,8 +13,9 @@
     position: relative;
     background-color: $light-bg-color;
     display: flex;
+    align-items: center;
     transition: all 0.3s linear;
-    height: 0;
+    height: 120px;
 
     &.pinned {
       z-index: 1000;
@@ -22,6 +23,7 @@
       width: 100%;
       top: 0;
       height: 70px;
+      box-shadow: 0 2px 5px 0 rgba(59, 57, 49, 0.2);
 
       background-color: #fff;
 
@@ -40,8 +42,42 @@
       .header-contacts {
         height: 70px;
         padding-bottom: 0;
-        padding-top: 5px;
-        justify-content: center;
+        justify-content: flex-end;
+        flex-direction: row;
+        align-items: center;
+
+        .phone {
+          padding-top: 9px;
+
+          a {
+            font-size: 16px;
+            letter-spacing: -0.3px;
+          }
+
+          img {
+            top: -2px;
+            height: 25px;
+          }
+        }
+      }
+
+      .email-btn {
+        display: flex!important;
+        margin-left: 18px;
+
+        &:hover {
+          background-color: $light-bg-color;
+          color: $green-brand-color;
+          box-shadow: 0 10px 25px 0 rgba(177, 136, 87, 0.2);
+        }
+      }
+
+      .header-left-part {
+        padding-right: 20px;
+      }
+
+      .header-right-part {
+        padding-left: 35px;
       }
     }
 
@@ -57,7 +93,7 @@
     }
 
     .logo {
-      width: 195px
+      width: 195px;
     }
 
     .header-left-part {
@@ -80,6 +116,7 @@
       display: flex;
       justify-content: space-between;
       width: 100%;
+
       .menu-item {
         margin-right: 15px;
         font-weight: 700;
@@ -102,14 +139,17 @@
       flex-direction: column;
       justify-content: flex-end;
       height: 120px;
-      padding-bottom: 20px;
+      padding-bottom: 25px;
 
       .phone {
         display: flex;
         margin-bottom: 2px;
+
         img {
           position: relative;
           top: 2px;
+          height: 25px;
+          margin-right: 10px;
         }
         a {
           white-space: nowrap;
@@ -119,10 +159,6 @@
           font-size: 24px;
           letter-spacing: -0.48px;
           transition: color 0.2s linear;
-
-          &:hover {
-            color: $green-brand-color;
-          }
         }
       }
 
@@ -137,6 +173,172 @@
           }
         }
       }
+
+      .email-btn {
+        width: 70px;
+        height: 70px;
+        background-color: $button-bg-color;
+        display: none;
+      }
+
+      .call-btn {
+        height: 70px;
+        display: none;
+
+        &:hover {
+          background-color: #378467;
+        }
+      }
     }
+  }
+
+  .mobile-menu-btn {
+    width: 70px;
+    height: 70px;
+    background-color: #fff;
+    display: none;
+  }
+
+  @media (max-width: 1199.98px) {
+    height: 150px;
+
+    .main-header {
+      height: 100px;
+
+      >.container {
+        height: 100px;
+      }
+
+      .logo {
+        width: 160px;
+      }
+
+      .header-contacts {
+        height: 100px;
+        padding-bottom: 10px;
+      }
+
+      .header-left-part {
+        padding-right: 20px;
+      }
+
+      .header-right-part {
+        padding-left: 35px;
+      }
+    }
+
+  }
+
+  @media (max-width: 991.98px) {
+    height: 120px;
+
+    .main-header {
+      height: 70px;
+
+      >.container {
+        height: 70px;
+      }
+
+      .logo {
+        width: 117px;
+      }
+
+      .header-contacts {
+        height: 100%;
+        padding-bottom: 10px;
+      }
+
+      .header-left-part {
+        padding-right: 20px;
+      }
+
+      .header-right-part {
+        padding-left: 35px;
+        display: flex;
+        justify-content: flex-end;
+      }
+
+      .main-menu {
+        display: none;
+      }
+
+      .header-contacts {
+        height: 70px;
+        padding-bottom: 0;
+        justify-content: flex-end;
+        flex-direction: row;
+        align-items: center;
+
+        .phone, .email {
+          display: none;
+        }
+
+        .email-btn {
+          display: flex!important;
+        }
+
+        .call-btn {
+          display: flex;
+        }
+      }
+
+
+    }
+
+    .mobile-menu-btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  @media (max-width: 767.98px) {
+    .call-btn {
+      .text {
+        display: none;
+      }
+
+      svg {
+        margin-right: 0!important;
+      }
+    }
+
+    .main-header {
+      .logo {
+        width: 95px;
+      }
+
+      >.container {
+        padding: 0;
+      }
+
+      .header-left-part {
+        padding-right: 10px;
+        width: 35%;
+      }
+
+      .header-right-part {
+        padding-left: 25px;
+        width: 35%;
+      }
+
+      .krona-btn {
+        img {
+          height: 16px;
+        }
+
+        svg {
+          height: 16px;
+        }
+      }
+
+      .email-btn {
+        width: auto!important;
+      }
+
+
+    }
+
+
   }
 }

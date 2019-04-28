@@ -18,6 +18,9 @@ $theme_path = get_template_directory_uri();
       <div class="container">
         <div class="header-container">
           <div class="header-left-part">
+            <div class="mobile-menu-btn">
+              <img src="<?php echo $theme_path; ?>/images/burg.svg">
+            </div>
             <div class="main-menu">
               <div class="menu-item"><a href="/#services">Услуги</a></div>
               <div class="menu-item"><a href="/#about-company">О&nbsp;нас</a></div>
@@ -26,7 +29,7 @@ $theme_path = get_template_directory_uri();
             </div>
           </div>
           <a href="/">
-            <img class="logo" src="<?php echo $theme_path; ?>/images/logo.png" alt="logo" />
+            <img class="logo" src="<?php echo $theme_path; ?>/images/logo.svg" alt="logo" />
           </a>
           <div class="header-right-part">
             <div class="main-menu">
@@ -40,6 +43,16 @@ $theme_path = get_template_directory_uri();
               <div class="email">
                 <a href="mailto:krona.wood@ya.ru">krona.wood@ya.ru</a>
               </div>
+              <a class="email-btn krona-btn" href="mailto:krona.wood@ya.ru">
+                <img src="<?php echo $theme_path; ?>/images/email-box.svg">
+              </a>
+              <a class="call-btn krona-btn dark-bg" href="tel:+79274646777">
+                <img src="<?php echo $theme_path; ?>/images/phone-white.svg">
+                <span class="text">
+                  Позвонить
+                </span>
+              </a>
+
             </div>
           </div>
         </div>
