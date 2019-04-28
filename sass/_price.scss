@@ -26,7 +26,7 @@
 
     tbody {
       td {
-        font-size: 24px;
+        font-size: 22px;
         font-weight: 700;
         border-bottom: 2px solid #f9f8eb;
       }
@@ -84,4 +84,157 @@
       background-color: $green-brand-color;
     }
   }
+}
+
+@media (max-width: 1199.98px) {
+
+  .price-menu {
+    .menu-item {
+      margin: 0 10px 20px;
+      font-size: 16px;
+      line-height: 20px;
+      padding: 15px 25px;
+    }
+  }
+
+  .table-container {
+    margin-bottom: 40px;
+    padding: 15px 47px;
+
+    .tablepress {
+
+      td, th {
+        padding: 20px;
+      }
+
+      tbody {
+        td {
+          font-size: 22px;
+          font-weight: 600;
+        }
+      }
+
+    }
+  }
+}
+
+@media (max-width: 991.98px) {
+  .table-container {
+    margin-bottom: 40px;
+    padding: 15px 47px;
+
+    .tablepress {
+
+      td, th {
+        padding: 24px;
+      }
+
+      tbody {
+        td {
+          font-size: 18px;
+          font-weight: 600;
+        }
+      }
+
+    }
+  }
+
+  .table-title {
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 1.3px;
+    margin-bottom: 24px;
+  }
+
+}
+
+@media (max-width: 767.98px) {
+  #price-page {
+    padding-top: 30px;
+  }
+  .price-menu {
+    .menu-item {
+      margin: 0 7px 14px;
+      font-size: 14px;
+      line-height: 20px;
+      padding: 10px 15px;
+    }
+  }
+
+  .table-title {
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 1.3px;
+    margin-bottom: 24px;
+  }
+
+  .table-container {
+    margin-bottom: 30px;
+    padding: 5px 15px;
+
+    .tablepress {
+
+      td, th {
+        padding: 20px;
+      }
+
+      tbody {
+        td {
+          font-size: 16px;
+          font-weight: 600;
+        }
+      }
+
+    }
+  }
+}
+
+@media (max-width: 575.98px) {
+  .container.no-pdng {
+    padding: 0;
+  }
+  .price-menu {
+    .menu-item {
+      margin: 0 3px 7px;
+      font-size: 12px;
+      line-height: 16px;
+      padding: 5px 8px;
+      border: 2px solid $green-brand-color;
+    }
+  }
+
+  .table-title {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+  }
+
+  .table-container {
+    margin-bottom: 30px;
+    padding: 5px;
+
+    .tablepress {
+
+      thead {
+        th {
+          font-size: 14px;
+        }
+      }
+
+      td, th {
+        padding: 10px 5px;
+      }
+
+      tbody {
+        td {
+          font-size: 12px;
+          font-weight: 400;
+        }
+      }
+
+    }
+  }
+
+
 }

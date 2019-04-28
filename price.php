@@ -19,7 +19,9 @@ get_header();
       <div class="menu-item active" data-id="8">Брусок</div>
       <div class="menu-item active" data-id="9">Двери из массива</div>
     </div>
-    <div data-id="1" class="price-table show">
+  </div>
+  <div class="container no-pdng">
+    <div data-id="1" class="price-table">
       <div class="table-title">
         Евровагонка
       </div>
@@ -99,7 +101,6 @@ get_header();
         <?php echo do_shortcode( '[table id=9 /]' ); ?>
       </div>
     </div>
-
   </div>
 </div>
 
