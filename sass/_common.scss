@@ -49,3 +49,9 @@ html, body {
     background-color: $green-brand-color;
   }
 }
+
+@media(max-width: 567.98px) {
+  .container {
+    padding: 0;
+  }
+}

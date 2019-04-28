@@ -257,7 +257,7 @@ get_header();
     <div class="contacts-form-row">
       <div class="block light-bg">
         <div class="title m2b_26">
-          У вас остались вопросы или&nbsp;есть&nbsp;предложения по&nbsp;сторудничеству?
+          У вас остались вопросы или&nbsp;есть предложения по&nbsp;сторудничеству?
         </div>
         <div class="font-lg description">
           Позвоните нам или&nbsp;заполните форму&nbsp;обратной&nbsp;связи.

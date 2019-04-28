@@ -215,6 +215,14 @@
       }
     }
   }
+
+  @media(max-width: 567.98px) {
+    .advantages-wrapper {
+      .advantage-item {
+        width: 320px;
+      }
+    }
+  }
 }
 
 section.news {
@@ -343,6 +351,12 @@ section.contact-form {
       .block {
         flex-basis: auto;
         max-width: 100%;
+        padding: 30px;
+
+        .title {
+          font-size: 20px;
+          line-height: 28px;
+        }
       }
     }
   }
