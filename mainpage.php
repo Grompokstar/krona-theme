@@ -115,39 +115,31 @@ get_header();
     </div>
     <div class="section-title-divider m2b_54"></div>
     <div class="about-company-content">
-      <div class="row m2b_26">
-        <div class="col-xl-6">
-          <div class="about-text">
-            <div class="m2b_4">
-              Компания "Крона" работате на&nbsp;рынке пиломатериалов с&nbsp;2008&nbsp;г. Мы сами контролируем процесс
-              производства от&nbsp;заготовки леса до&nbsp;изготовления продукции, блогадаря&nbsp;чему можем предложить
-              вам высокое качество материала по&nbsp;доступным ценам.
-            </div>
-            Для производства по-настоящему качественных пиломатериалов необходимо особенное сырье.
-            Крепкое, плотное, но&nbsp;удобное для&nbsp;обработки. Именно такими качествами обладает
-            древесина из&nbsp;северных регионов России.
+      <div class="company-row m2b_30">
+        <div class="about-text order_2">
+          <div class="m2b_4">
+            Компания "Крона" работате на&nbsp;рынке пиломатериалов с&nbsp;2008&nbsp;г. Мы сами контролируем процесс
+            производства от&nbsp;заготовки леса до&nbsp;изготовления продукции, блогадаря&nbsp;чему можем предложить
+            вам высокое качество материала по&nbsp;доступным ценам.
           </div>
+          Для производства по-настоящему качественных пиломатериалов необходимо особенное сырье.
+          Крепкое, плотное, но&nbsp;удобное для&nbsp;обработки. Именно такими качествами обладает
+          древесина из&nbsp;северных регионов России.
         </div>
-        <div class="col-xl-6">
-          <div class="img-container">
-            <img src="<?php echo $theme_path; ?>/images/photo-2.jpg" width="554px" height="300px">
-          </div>
+        <div class="img-container">
+          <img src="<?php echo $theme_path; ?>/images/photo-2.jpg" width="554px" height="300px">
         </div>
       </div>
 
-      <div class="row m2b-62">
-        <div class="col-xl-6">
-          <div class="img-container">
-            <img src="<?php echo $theme_path; ?>/images/photo-1.jpg">
-          </div>
+      <div class="company-row m2b-62">
+        <div class="img-container">
+          <img src="<?php echo $theme_path; ?>/images/photo-1.jpg">
         </div>
-        <div class="col-xl-6">
-          <div class="about-text">
-            Эти же особенности обеспечивают строительному материалу изсеверного леса отличные
-            эксплуатационные характеристики – жилье с&nbsp;отделкой из&nbsp;него положительно влияет
-            на&nbsp;здоровье человека. Поэтому выбирая материал для&nbsp;строительства и&nbsp;отделки своего дома,
-            мы рекомендуем обратить внимание на&nbsp;этот вид&nbsp;древесины.
-          </div>
+        <div class="about-text">
+          Эти же особенности обеспечивают строительному материалу изсеверного леса отличные
+          эксплуатационные характеристики – жилье с&nbsp;отделкой из&nbsp;него положительно влияет
+          на&nbsp;здоровье человека. Поэтому выбирая материал для&nbsp;строительства и&nbsp;отделки своего дома,
+          мы рекомендуем обратить внимание на&nbsp;этот вид&nbsp;древесины.
         </div>
       </div>
     </div>
@@ -195,12 +187,12 @@ get_header();
 <section id="news" class="news">
   <div class="container">
     <div class="section-title dark-bg m2b_18">
-      <h2>Новости и акции</h2>
+      <h2>Новости и&nbsp;акции</h2>
     </div>
     <div class="section-title-divider m2b_28"></div>
 
     <div class="row m2b_24">
-      <div class="col-lg-6">
+      <div class="col-xl-6">
         <div class="news-item">
           <div class="image-container">
             <img src="<?php echo $theme_path; ?>/images/photo-2.jpg">
@@ -214,7 +206,7 @@ get_header();
           </div>
         </div>
       </div>
-      <div class="col-lg-6">
+      <div class="col-xl-6">
         <div class="news-item">
           <div class="image-container">
             <img src="<?php echo $theme_path; ?>/images/photo-1.jpg">
