@@ -32,4 +32,14 @@
     }
   }
 
+  @media (max-width: 991.98px) {
+    .top-footer-block {
+      .footer-block {
+        justify-content: center!important;
+        align-items: center;
+
+      }
+    }
+  }
+
 }

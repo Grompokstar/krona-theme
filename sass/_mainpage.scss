@@ -41,6 +41,18 @@
     background: url(images/cover.jpg) no-repeat center;
     background-size: cover;
   }
+
+  @media (max-width: 575.98px) {
+    .slide-item {
+      .slider-content {
+        .title {
+          font-size: 32px;
+          letter-spacing: 1px;
+          line-height: 46px;
+        }
+      }
+    }
+  }
 }
 
 .services {
@@ -98,6 +110,14 @@
       .description {
         color: #b18857;
         line-height: 24px;
+      }
+    }
+  }
+
+  @media (max-width: 575.98px) {
+    .services-wrapper {
+      .service-item {
+        flex-direction: column;
       }
     }
   }
@@ -247,6 +267,12 @@ section.news {
       }
     }
   }
+
+  @media (max-width: 575.98px) {
+    .news-item {
+      flex-direction: column;
+    }
+  }
 }
 
 section.supplier {
@@ -307,6 +333,17 @@ section.contact-form {
         font-weight: 700;
       }
 
+    }
+  }
+
+  @media (max-width: 991.98px) {
+    .contacts-form-row {
+      flex-direction: column;
+
+      .block {
+        flex-basis: auto;
+        max-width: 100%;
+      }
     }
   }
 }

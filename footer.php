@@ -11,16 +11,18 @@ $theme_path = get_template_directory_uri();
     <div class="top-footer-block">
       <div class="container">
         <div class="row">
-          <div class="col-lg-3">
-            <img class="logo" height="73" src="<?php echo $theme_path; ?>/images/logo2.svg" alt="logo" />
+          <div class="col-sm-6 col-lg-3">
+            <div class="footer-block">
+              <img class="logo" height="73" src="<?php echo $theme_path; ?>/images/logo2.svg" alt="logo" />
+            </div>
           </div>
-          <div class="col-lg-3">
+          <div class="col-sm-6 col-lg-3">
             <div class="footer-block">
               <img class="m2r_16" src="<?php echo $theme_path; ?>/images/phone-yellow.svg">
               <div class="bold font-md">+7 927 464 67 77</div>
             </div>
           </div>
-          <div class="col-lg-3">
+          <div class="col-sm-6 col-lg-3">
             <div class="footer-block">
               <img class="m2r_18" src="<?php echo $theme_path; ?>/images/point.svg">
               <div class="font-md">
@@ -29,7 +31,7 @@ $theme_path = get_template_directory_uri();
               </div>
             </div>
           </div>
-          <div class="col-lg-3">
+          <div class="col-sm-6 col-lg-3">
             <div class="footer-block justify-content-end">
               <img class="m2r_18" src="<?php echo $theme_path; ?>/images/clock.svg">
               <div class="font-md">

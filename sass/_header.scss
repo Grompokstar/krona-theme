@@ -335,10 +335,24 @@
       .email-btn {
         width: auto!important;
       }
-
-
     }
 
+    &.pinned {
+      .main-header {
+        .logo {
+          width: 95px;
+        }
 
+        .header-left-part {
+          padding-right: 10px;
+          width: 35%;
+        }
+
+        .header-right-part {
+          padding-left: 25px;
+          width: 35%;
+        }
+      }
+    }
   }
 }
