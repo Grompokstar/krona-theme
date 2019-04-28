@@ -80,3 +80,90 @@
     width: 225px
   }
 }
+
+div.wpforms-container-full .wpforms-form .wpforms-submit-container {
+  .krona-btn {
+    height: 70px;
+    font-family: "Monrope", Arial, sans-serif;
+    position: relative;
+    cursor: pointer;
+    color: $brown-secondary-brand-color;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+    background-color: $button-bg-color!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s linear;
+    padding: 10px 20px;
+    border: none;
+
+    &:hover {
+      background-color: $light-bg-color;
+      color: $green-brand-color;
+      border: none;
+      box-shadow: 0 10px 25px 0 rgba(177, 136, 87, 0.2);
+    }
+
+
+    &.dark-bg {
+      background-color: $green-brand-color;
+      color: #fff;
+
+      img {
+        position: relative;
+        height: 25px;
+      }
+    }
+
+    &.white-bg {
+      background-color: #fff;
+      color: $green-brand-color;
+      border: 3px solid $green-brand-color;
+      transition: all 0.1s linear;
+
+      &:hover {
+        background-color: $green-brand-color;
+        color: #fff;
+        box-shadow: 0 10px 25px 0 rgba(177, 136, 87, 0.2);
+
+        svg path {
+          fill: #fff;
+        }
+      }
+    }
+
+    .text {
+      position: relative;
+      top: -1px
+    }
+
+    img {
+      position: relative;
+      top: 1px;
+    }
+
+    svg {
+    }
+
+    &.full-width {
+      width: 100%
+    }
+
+    &.width-300 {
+      width: 300px
+    }
+
+    &.width-270 {
+      width: 270px
+    }
+
+    &.width-225 {
+      width: 225px
+    }
+  }
+}

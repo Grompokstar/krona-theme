@@ -266,14 +266,7 @@ get_header();
 
       </div>
       <div class="block dark-bg">
-        <input type="text" class="form-control m2b_26" placeholder="Имя">
-        <input type="text" class="form-control m2b_26" placeholder="Email или телефон">
-        <input type="text" class="form-control m2b_26" placeholder="Текст сообщения">
-
-        <a href="#" class="krona-btn full-width">
-          <span class="text m2r_20">Отправить</span>
-          <div><img src="<?php echo $theme_path; ?>/images/next.svg"></div>
-        </a>
+        <?php echo do_shortcode( '[wpforms id="59" title="false" description="false"]' ); ?>
       </div>
     </div>
   </div>
