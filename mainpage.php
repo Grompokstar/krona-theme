@@ -161,32 +161,34 @@ get_header();
     </div>
     <div class="section-title-divider m2b_28"></div>
   </div>
-  <div class="advantages-wrapper">
-    <div class="advantage-item">
-      <img src="<?php echo $theme_path; ?>/images/ico-1.svg">
-      <div class="title">
-        Северный<br>лес
+  <div class="row">
+    <div class="advantages-wrapper">
+      <div class="advantage-item">
+        <img src="<?php echo $theme_path; ?>/images/ico-1.svg">
+        <div class="title">
+          Северный<br>лес
+        </div>
+        <div class="description">
+          Древесина из&nbsp;северных регионов
+        </div>
       </div>
-      <div class="description">
-        Древесина из&nbsp;северных регионов
+      <div class="advantage-item">
+        <img src="<?php echo $theme_path; ?>/images/ico-2.svg">
+        <div class="title">
+          Удобное<br>расположение
+        </div>
+        <div class="description">
+          Общественный транспорт в&nbsp;шаговой&nbsp;доступности
+        </div>
       </div>
-    </div>
-    <div class="advantage-item">
-      <img src="<?php echo $theme_path; ?>/images/ico-2.svg">
-      <div class="title">
-        Удобное<br>расположение
-      </div>
-      <div class="description">
-        Общественный транспорт в&nbsp;шаговой&nbsp;доступности
-      </div>
-    </div>
-    <div class="advantage-item">
-      <img src="<?php echo $theme_path; ?>/images/ico-3.svg">
-      <div class="title">
-        Оплата<br>материала
-      </div>
-      <div class="description">
-        Наличный и&nbsp;безналичный рассчет
+      <div class="advantage-item">
+        <img src="<?php echo $theme_path; ?>/images/ico-3.svg">
+        <div class="title">
+          Оплата<br>материала
+        </div>
+        <div class="description">
+          Наличный и&nbsp;безналичный рассчет
+        </div>
       </div>
     </div>
   </div>
