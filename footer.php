@@ -16,11 +16,11 @@ $theme_path = get_template_directory_uri();
           </div>
           <div class="footer-block">
             <img class="m2r_16" src="<?php echo $theme_path; ?>/images/phone-yellow.svg">
-            <div class="bold font-md">+7 927 464 67 77</div>
+            <div class="font-md">+7 927 464 67 77</div>
           </div>
           <div class="footer-block">
             <img class="m2r_16" height="19px" src="<?php echo $theme_path; ?>/images/email-box-yellow.svg">
-            <div class="bold font-md">krona.wood@ya.ru</div>
+            <div class="font-md">krona.wood@ya.ru</div>
           </div>
           <div class="footer-block">
             <img class="m2r_18" src="<?php echo $theme_path; ?>/images/point.svg">

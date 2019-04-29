@@ -14,7 +14,7 @@
     background-color: $light-bg-color;
     display: flex;
     align-items: center;
-    transition: height 0.3s linear;
+    transition: all 0.3s linear;
     height: 120px;
 
     &.pinned {

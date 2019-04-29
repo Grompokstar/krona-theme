@@ -20,8 +20,12 @@
 
 }
 
-.form-control {
+.form-control.wpforms-field {
+  padding: 0!important;
+  height: 60px;
+
   input {
+    height: 60px!important;
     padding: 21px 25px!important;
     border: none!important;
     font-size: 18px!important;
@@ -29,8 +33,10 @@
     color: $brown-brand-color!important;
     line-height: 16px!important;
     background-color: #fff!important;
+    max-width: 100%!important;
     width: 100%!important;
     position: relative;
+    border-radius: 0!important;
 
 
     &::-webkit-input-placeholder {
@@ -39,6 +45,11 @@
 
     &::-moz-placeholder {
       color: $green-brand-color!important;
+    }
+
+    &:focus {
+      outline: 2px solid $green-secondary-brand-color;
+      outline-offset: -2px;
     }
   }
 

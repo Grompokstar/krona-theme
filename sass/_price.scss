@@ -26,8 +26,8 @@
 
     tbody {
       td {
-        font-size: 22px;
-        font-weight: 700;
+        font-size: 24px;
+        font-weight: 500;
         border-bottom: 2px solid #f9f8eb;
       }
 
@@ -110,7 +110,7 @@
       tbody {
         td {
           font-size: 22px;
-          font-weight: 600;
+          font-weight: 500;
         }
       }
 
@@ -132,7 +132,7 @@
       tbody {
         td {
           font-size: 18px;
-          font-weight: 600;
+          font-weight: 500;
         }
       }
 
@@ -181,7 +181,7 @@
       tbody {
         td {
           font-size: 16px;
-          font-weight: 600;
+          font-weight: 500;
         }
       }
 
@@ -204,10 +204,10 @@
   }
 
   .table-title {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
   }
 
   .table-container {

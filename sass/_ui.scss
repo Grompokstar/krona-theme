@@ -103,10 +103,10 @@ div.wpforms-container-full .wpforms-form .wpforms-submit-container {
     border: none;
 
     &:hover {
-      background-color: $light-bg-color;
+      background-color: $light-bg-color!important;
       color: $green-brand-color;
       border: none;
-      box-shadow: 0 10px 25px 0 rgba(177, 136, 87, 0.2);
+      box-shadow: 0 10px 25px 0 rgba(177, 136, 87, 0.2)!important;
     }
 
 
