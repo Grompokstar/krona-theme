@@ -193,32 +193,98 @@ get_header();
 
     <div class="row m2b_24">
       <div class="col-xl-6">
-        <div class="news-item">
-          <div class="image-container">
-            <img src="<?php echo $theme_path; ?>/images/photo-2.jpg">
-          </div>
-          <div class="text">
-            <div class="type news">Новость</div>
-            <div class="title">
-              Поступление вагонки в&nbsp;цвете мокрый асфальт
+        <?php
+        $newsPosts = get_posts( array(
+          'numberposts' => 1,
+          'category'    => 3,
+          'orderby'     => 'date',
+          'order'       => 'DESC',
+          'post_type'   => 'post',
+          'suppress_filters' => true,
+        ) );
+
+        foreach( $newsPosts as $post ){
+        setup_postdata($post);
+          ?>
+
+          <a href="<?php the_permalink() ?>">
+
+            <div class="news-item">
+              <div class="image-container">
+                <img src="<?php echo $theme_path; ?>/images/photo-2.jpg">
+              </div>
+              <div class="text">
+                <?php
+                $categories = get_the_category();
+                if ($categories[0]->slug == 'news' ) {
+                  echo '<div class="type">Новость</div>';
+                }
+
+                if ($categories[0]->slug == 'promo' ) {
+                  echo '<div class="type promo">Акция!</div>';
+                }
+                ?>
+                <div class="title">
+                  <?php the_title()?>
+                </div>
+                <div class="date"><?php the_date('d F Y')?></div>
+              </div>
             </div>
-            <div class="date">03 апреля 2019</div>
-          </div>
-        </div>
+          </a>
+
+        <?php
+        }
+
+        wp_reset_postdata();
+        ?>
+
       </div>
+
       <div class="col-xl-6">
-        <div class="news-item">
-          <div class="image-container">
-            <img src="<?php echo $theme_path; ?>/images/photo-1.jpg">
-          </div>
-          <div class="text">
-            <div class="type promo">Акция!</div>
-            <div class="title">
-              Скидка на брус 50х50
+        <?php
+        $promoPosts = get_posts( array(
+          'numberposts' => 1,
+          'category'    => 2,
+          'orderby'     => 'date',
+          'order'       => 'DESC',
+          'post_type'   => 'post',
+          'suppress_filters' => true,
+        ) );
+
+        foreach( $promoPosts as $post ){
+          setup_postdata($post);
+          ?>
+
+          <a href="<?php the_permalink() ?>">
+
+            <div class="news-item">
+              <div class="image-container">
+                <img src="<?php echo $theme_path; ?>/images/photo-1.jpg">
+              </div>
+              <div class="text">
+                <?php
+                $categories = get_the_category();
+                if ($categories[0]->slug == 'news' ) {
+                  echo '<div class="type">Новость</div>';
+                }
+
+                if ($categories[0]->slug == 'promo' ) {
+                  echo '<div class="type promo">Акция!</div>';
+                }
+                ?>
+                <div class="title">
+                  <?php the_title()?>
+                </div>
+                <div class="date"><?php the_date('d F Y')?></div>
+              </div>
             </div>
-            <div class="date">с 4 апреля по 25 мая 2019</div>
-          </div>
-        </div>
+          </a>
+
+        <?php
+        }
+
+        wp_reset_postdata();
+        ?>
       </div>
     </div>
 
