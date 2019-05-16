@@ -275,7 +275,10 @@ get_header();
                 <div class="title">
                   <?php the_title()?>
                 </div>
-                <div class="date"><?php the_date('d F Y')?></div>
+                <div class="date">
+                  c <?php echo get_field('start_date')?>
+                  по <?php echo get_field('end_date'); echo ' '.date('Y')?>
+                </div>
               </div>
             </div>
           </a>
@@ -289,7 +292,7 @@ get_header();
     </div>
 
     <div class="flex-center">
-      <a href="#" class="krona-btn width-270">
+      <a href="/news" class="krona-btn width-270">
         <span class="text m2r_20">Читать больше</span>
         <div><img src="<?php echo $theme_path; ?>/images/ico-next.svg"></div>
       </a>
