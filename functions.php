@@ -1,5 +1,20 @@
 <?php
 
+function krona_setup() {
+
+  add_theme_support( 'title-tag' );
+
+  /*
+   * Enable support for Post Thumbnails on posts and pages.
+   *
+   * @link https://developer.wordpress.org/themes/functionality/featured-images-post-thumbnails/
+   */
+  add_theme_support( 'post-thumbnails' );
+  set_post_thumbnail_size( 1568, 9999 );
+}
+
+add_action( 'after_setup_theme', 'krona_setup' );
+
 function main_scripts_styles(){
   wp_register_style( 'bootstrap', get_template_directory_uri() . '/css/bootstrap-grid.css',  'screen');
   wp_enqueue_style( 'bootstrap');
@@ -19,3 +34,5 @@ function main_scripts_styles(){
 }
 
 add_action( 'wp_enqueue_scripts', 'main_scripts_styles', 1 );
+
+
