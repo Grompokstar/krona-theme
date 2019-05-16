@@ -52,12 +52,16 @@ $theme_path = get_template_directory_uri();
               Также, вы можете написать нам<br>
               в социальных сетях:
             </div>
-            <div class="social-btn">
-              <img class="m2r_10" src="<?php echo $theme_path; ?>/images/insta.svg">
-            </div>
-            <div class="social-btn">
-              <img class="m2r_10" src="<?php echo $theme_path; ?>/images/vk.svg">
-            </div>
+            <a href="https://www.instagram.com/krona.wood/">
+              <div class="social-btn">
+                <img class="m2r_10" src="<?php echo $theme_path; ?>/images/insta.svg">
+              </div>
+            </a>
+            <a href="https://vk.com/krona.wood">
+              <div class="social-btn">
+                <img class="m2r_10" src="<?php echo $theme_path; ?>/images/vk.svg">
+              </div>
+            </a>
           </div>
         </div>
       </div>
