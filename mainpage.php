@@ -211,7 +211,7 @@ get_header();
 
             <div class="news-item">
               <div class="image-container">
-                <img src="<?php echo $theme_path; ?>/images/photo-2.jpg">
+                <img src="<?php echo get_the_post_thumbnail_url() ?>">
               </div>
               <div class="text">
                 <?php
@@ -259,7 +259,7 @@ get_header();
 
             <div class="news-item">
               <div class="image-container">
-                <img src="<?php echo $theme_path; ?>/images/photo-1.jpg">
+                <img src="<?php echo get_the_post_thumbnail_url() ?>">
               </div>
               <div class="text">
                 <?php
